@@ -1,0 +1,16 @@
+.socialMedia{
+	height: 55px;
+	width: 55px;
+	margin-right: 3px;
+	margin-left: 3px;
+}
+
+.profilePicture{
+	width: 100%;
+}
+
+.navbar-brand{
+	background: #4aaaa5;
+	color: white !important;
+	font-family: 'Georgia', Times, Times New Roman, serif;	
+}
