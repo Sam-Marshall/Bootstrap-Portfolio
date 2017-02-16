@@ -3,54 +3,122 @@
 
 <head>
 
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
- 	<title>Stacy Marshall's Portfolio</title>
- 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js">  </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Stacy Marshall's Portfolio</title>
+    
+     <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 
 <body>
 
-	<div class="container">
+    <div class="container-fluid">
 
-    <nav class="navbar navbar-default">
+        <nav class="navbar navbar-default col-lg-12">
 
-      <div class="container-fluid">
+          <div class="container-fluid">
 
-        <div class="navbar-header">
+            <div class="navbar-header">
 
-        	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-				<span class="sr-only">Toggle Navigation</span>
-	    		<span class="icon-bar"></span>
-	        	<span class="icon-bar"></span>
-	        	<span class="icon-bar"></span> 
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
 
-	        </button>
+                </button>
 
-        	<a class="navbar-brand" href="index.html">Stacy Marshall</a>
-        
+                <a class="navbar-brand text-center" href="index.html">Stacy Marshall</a>
+            
+            </div>
+
+            <div class="navbar-collapse collapse" id="myNavbar">
+              
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+                <li class="dropdown"></li>
+
+            </ul>
+            
+            </div>
+
+          </div>
+
+        </nav>
+
+        <div class="row">
+            
+            <div class="col-lg-8 col-md-8 col-sm-7 panel panel-default leftContent">
+                
+                <div class="panel-heading"><h2>Contact</h2>
+
+                </div>
+
+                    <div class="panel-body">
+                        
+                    <form class="well form-horizontal" action="mailto:stacy.marshall@northwestern.edu" method="post" enctype="text/plain">
+
+                    Name<br><br>
+                    <input class="textWidth heightSmall" type="text" name="nameInput" placeholder="  Jane Smith">
+                    <br><br>
+                
+                    Email<br><br>
+                    <input class="textWidth heightSmall" type="text" name="emailAddress" placeholder="  example@gmail.com">
+                    <br><br>
+                
+                    Message<br><br>
+                    <textarea rows="25" cols="25" class="textWidth heightLarge" name="messageInfo"></textarea>
+                    <br><br>
+                
+                    <input type="submit" value="Submit">
+
+
+                    </form>
+
+                    </div>
+
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-4 panel panel-default connectWithMe">
+                
+                <div class="panel-heading text-center"><h4>Connect With Me</h4></div>
+                <div class="panel-body">
+                        
+                        <a href="https://github.com/Sam-Marshall" target="_blank">
+                            <img class="socialMedia d-inline-block" src="assets/images/GitHubLogo.png" alt="Git Hub Logo">
+                        </a>
+                    
+                        <a href="https://www.linkedin.com/in/stacy-marshall/" target="_blank">
+                            <img class="socialMedia d-inline-block" src="assets/images/LinkedinLogo.png" alt="Linkedin Logo">
+                        </a>
+                        
+                        <a href="http://stackoverflow.com/users/edit/7455212" target="_blank">
+                            <img class="socialMedia d-inline-block" src="assets/images/StackOverflow.png" alt="StackOverflow Logo">
+                        </a>                
+
+                </div>
+
+            </div>
+
         </div>
 
-        <div class="navbar-collapse collapse" id="myNavbar">
-          
-    	<ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li class="active"><a href="contact.html">Contact</a></li>
-            <li class="dropdown">
+        <footer class="footer text-center">
+            <div class="foot">
+            <p>&copy; Copyright 2017 Stacy Marshall</p>
+            </div>
 
-        </ul>
-        
-        </div>
-
-      </div>
-
-    </nav>
+        </footer>
 
     </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js">  </script>
 
 </body>
 

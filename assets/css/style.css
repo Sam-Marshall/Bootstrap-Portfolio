@@ -1,16 +1,138 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(../images/Background.png);
+}
+
+a:hover{
+	opacity: 0.8;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+.navbar{
+	background-color: #ffffff !important;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.leftContent{
+	margin: 15px;
+}
+
+.connectWithMe{
+	margin: 15px;
+}
+
 .socialMedia{
-	height: 55px;
-	width: 55px;
-	margin-right: 3px;
-	margin-left: 3px;
+	height: auto;
+	width: 30%;
+}
+
+.layered {
+	position: relative;
+	display: inline-block;
+	overflow: auto;
+}
+
+.layered:hover{
+	transform: rotate(-5deg);
+}
+
+.boxLink {
+	color: white;
+	background: #4aaaa5;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: center;	
+	padding-bottom: 10px;
+	padding-top: 10px;
+	width: 250px;
+	height: 50px;
+	position: absolute;
+	float: left;
+	z-index: 100;
+	bottom: 15px;
+	right: 15px;
+}
+
+.imageLink {
+	float: left;
+	position: relative;
+	max-width: 250px;
+	margin-left: 25px;
+	margin-right: 15px;
+	margin-bottom: 25px;
+	margin-top: 15px;
+	height: 187.5px;
+	border-radius: 5px;
 }
 
 .profilePicture{
-	width: 100%;
+	width: 75%;
+	margin: 10px;
 }
 
 .navbar-brand{
 	background: #4aaaa5;
 	color: white !important;
 	font-family: 'Georgia', Times, Times New Roman, serif;	
+}
+
+.panel-heading{
+	color: #4aaaa5 !important;
+	background-color: #ffffff !important;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+
+.textWidth{
+	width: 100%;
+}
+
+input[type=submit] {
+	color: white;
+	background: #4aaaa5;
+	height: 40px;
+	width: 115px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;	
+	font-size: 125%;
+}
+
+input[type=text], textarea{
+	font-size: 110%;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	font-size: 16px;
+
+}
+
+footer {
+	background: #666666;
+	border-style: solid;
+	border-top-width: 10px;
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+	border-color: #4aaaa5;
+	clear: both;
+	text-align: center;
+	height: 75px;
+	padding: 25px;
+	border-radius: 5px;
+}
+
+.foot p{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;	
+	color: white;
 }
