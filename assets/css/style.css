@@ -18,6 +18,10 @@ a:link {
 	background-color: #ffffff !important;
 }
 
+li:hover{
+	background: lavender;
+}
+
 .row {
   margin-left: 0px;
   margin-right: 0px;
@@ -34,6 +38,9 @@ a:link {
 .socialMedia{
 	height: auto;
 	width: 30%;
+}
+.socialMedia:hover{
+	transform: rotate(-5deg);
 }
 
 .layered {
@@ -83,6 +90,17 @@ a:link {
 	background: #4aaaa5;
 	color: white !important;
 	font-family: 'Georgia', Times, Times New Roman, serif;	
+}
+
+.navbar-brand:hover{
+/*	color: black !important;*/
+	background: purple !important;
+
+}
+
+.btn:hover{
+	background: purple !important;
+	color: white !important;	
 }
 
 .panel-heading{
